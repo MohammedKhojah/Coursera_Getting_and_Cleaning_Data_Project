@@ -6,12 +6,19 @@
 
 * There are 5 parts in the R script. Each part is clearly labeled
 
-* The first merges all the txt files to create on dataset
+* The first merges all the txt files to create on dataset.
+    - temp1 and temp2 variables were used to temporarly read the text files
+    - S, X and Y variables were used to merge the Subject, x and Y test and train datasets
 
 * The second extracts certain features from the merged data set
+    - feature variable was used to read the featuers text file.
+    - Selected_features variable was used to select the mean and the standard diviation features
 
 * The third names the activities using the descriptive activity names file
+    - activities variable was used to read the activities file.
 
 * The fourth labels the dataset
+    - Cleaned is the variable that has the appropriate labels.
 
 * The fifth produces a final tidy dataset that contains the average of each feature.
+    - final_dataset.txt is the tidy dataset.
